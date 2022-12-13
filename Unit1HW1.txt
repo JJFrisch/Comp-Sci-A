@@ -1,0 +1,19 @@
+1.
+Rectangle r1 = new Rectangle(10,20,50,70);
+
+2.
+80.0
+
+3.
+false, they were given different upper left corner positions.
+
+4.
+Rectangle r3 = new Rectangle(10,20,50,70);
+Rectangle r4 = new Rectangle(10,20,50,70);
+r3.setLocation(4,5);
+r4.setLocation(4,5);
+
+r3 == r4 would be true, all the data inside of the objects are the same.
+
+5.
+System.out.println(rectangle.contains(7,8)):

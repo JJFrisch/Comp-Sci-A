@@ -1,0 +1,22 @@
+
+
+public static int calculateMean(int[][] arr){
+	int num = 0;
+	int count = 0;
+	for(int i=0;i<arr.length;i++){
+		for(int k=0;k<arr[i].length;k++){
+			num += arr[i][k];
+			count++;
+		}
+	}
+	return ((double) num)/count;
+}
+
+public static String[] getLeftColum(String[][] arr){
+	String[] leftC = new String[arr.length];
+	for(int i=0;i<arr.length;i++){
+		leftC[i] = arr[i][0];
+
+	}
+	return leftC; 
+}

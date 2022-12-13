@@ -1,0 +1,22 @@
+BArron's HW
+write assignment portion problem set(c2: 1-7)
+for each problem 
+-write the first few words
+-answer it
+-show the answer/show that you checked
+write the score on the top.  ex. 4/5
+
+
+
+c3: 1-5         SCORE=3/5
+Which of...
+A
+2) WHich of...
+B
+3)WHich statement...
+B
+4) which staement...
+A
+5) Which of the...
+B
+

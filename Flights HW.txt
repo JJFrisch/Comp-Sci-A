@@ -1,0 +1,22 @@
+if(flights.size == 0){
+  return 0;
+}
+return flights.get(0).getArrivalTime().minutesUntil(flights.get(flights.size-1).getDepartureTime());
+  
+
+if(flights.size < 2){
+  return -1;
+}
+int smallestLayover = flights.get(0).getDepartureTime().minutesUntil(flights.get(1).getArrivalTime());
+for(int i=1;i<flights.size();i++){
+    if(flights.get(i-1).getDepartureTime().minutesUntil(flights.get(i).getArrivalTime()) < smallestLayover){
+        smallestLayover = flights.get(i-1).getDepartureTime().minutesUntil(flights.get(i).getArrivalTime());
+    }
+}
+return smallestLayover;
+        
+
+
+
+
+	

@@ -1,0 +1,19 @@
+Public static void main(String[] args) {
+	try{
+		Scanner sc = new Scanner(new File("words.txt"));
+		int ie = 0;
+		int ei = 0;
+		While(sc.hasNextLine()){
+			String line = sc.nextLine;
+			if(line.contains("ie"){
+				ie ++;
+			}
+			if(line.contains("ei"){
+				ei++;
+			}
+		}
+		System.out.println("ie" + ie + " : " + ei + "ei");
+	} catch (FileNotFoundExeption e){
+		e.printStackTrace();
+	}
+}
